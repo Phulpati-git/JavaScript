@@ -31,3 +31,22 @@ const myFunction = function() {
 }
 
 console.log(typeof anotherId);
+
+
+
+// Stack(primitive),heap(Non primitive)
+let MyName = "Phulpati"
+let anotherName = MyName
+anotherName = "Ccode"
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "user@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
