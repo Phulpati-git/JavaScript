@@ -1,40 +1,76 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// // const tinderUser = new Object()
+// const tinderUser = {}
 
-tinderUser.id = "12abc"
-tinderUser.name = "Smaran"
-tinderUser.isLoggedIn = false
+// tinderUser.id = "12abc"
+// tinderUser.name = "Smaran"
+// tinderUser.isLoggedIn = false
 
+// // console.log(tinderUser);
+
+// const regularUser = {
+//     email: "some@gmail.com",
+//     fullname: {
+//         userfullname: {
+//             firstname: "phulpati",
+//             lastname: "Limbu"
+//         }
+//     }
+// }
+
+// // console.log(regularUser.fullname.userfullname.firstname);
+
+// const obj1 = {1: "a", 2 : "b"}
+// const obj2 = {3: "a", 4 : "b"}
+
+// // const  obj3 = { obj1 , obj2}
+// // const obj3 = Object.assign({}, obj1, obj2)
+
+// const obj3 = {...obj1 , ...obj2}
+// // console.log(obj3);
+
+// const users = [
+//     {
+//     },
+//     {
+//     },
+//     {
+//     },
+//     {
+//         id: 1,
+//         email: "P@gmail.com",
+//     },
+//     {
+//     },
+// ]
+
+// users[1].email
 // console.log(tinderUser);
 
-const regularUser = {
-    email: "some@gmail.com",
-    fullname: {
-        userfullname: {
-            firstname: "phulpati",
-            lastname: "Limbu"
-        }
-    }
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course  = {
+    coursename: "js in english",
+    price: "1000",
+    courseTeacher: "Meow"
 }
 
-// console.log(regularUser.fullname.userfullname.firstname);
+// course.courseTeacher
 
-const obj1 = {1: "a", 2 : "b"}
-const obj2 = {3: "a", 4 : "b"}
+const {courseTeacher: teacher} = course
 
-// const  obj3 = { obj1 , obj2}
-// const obj3 = Object.assign({}, obj1, obj2)
+console.log(teacher);
 
-const obj3 = {...obj1 , ...obj2}
-// console.log(obj3);
+// {
+//     name : "Phulpati",
+//     coursename: " js in nepali",
+//     price : "free",
+// }
 
-const users = [
-    {
-        id: 1,
-        email: "P@gmail.com",
-    },
+[
+    {},
+    {},
+    {}
 ]
-
-users[1].email
-console.log(tinderUser);
-
