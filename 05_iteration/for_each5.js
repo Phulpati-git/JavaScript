@@ -21,5 +21,24 @@ const shoppingCart = [{
 },
 ]
 
-const price =shoppingCart.reduce((acc ,item) => acc + item.price,0)
-console.log(price);
+// const price =shoppingCart.reduce((acc ,item) => acc + item.price,0)
+// console.log(price);
+
+const guitar = [
+    {
+        Itemname : "Fender",
+        price: 2000
+    },
+    {
+        
+        Itemname: "Martin",
+        price: 18000
+    },
+    {
+        Itemname: "SE",
+        price: 30000
+    }
+]
+
+const payTotal = guitar.reduce((acc ,item) => acc + item.price,0)
+console.log(payTotal);
